@@ -1,0 +1,139 @@
+.contakt__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font: normal normal bold 35px/47px Nunito Sans;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.contakt__logo span {
+    width: 50px;
+    height: 3px;
+    margin: 5px;
+    background: #ff0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #ff00004d;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.contakt {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+    @media (max-width: 992px) {
+        padding: 40px;
+    }
+
+    @media (max-width:367px) {
+        padding: 20px;
+    }
+}
+
+.contakt__img {
+    width: 100%;
+
+    @media (max-width: 992px) {
+        margin-bottom: 20px;
+    }
+}
+
+.contakt__form {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.form__name,
+.form__mail {
+    padding: 10px;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form__massege {
+    padding: 10px;
+    height: 140px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    opacity: 1;
+    resize: none;
+}
+
+.form_button {
+    position: absolute;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #ff00004d;
+    border: 1px solid #ff0000;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 1;
+    right: 0;
+    bottom: -50px;
+    padding: 10px 40px;
+
+    @media (max-width: 992px) {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+.form_button:hover {
+    cursor: pointer;
+}
+
+.form__name:focus,
+.form__mail:focus,
+.form__massege:focus {
+
+    box-shadow: 0px 1px 6px #ff00004d;
+    border: 1px solid #00ff33d2;
+    opacity: 1;
+    outline: none;
+}
+
+.form__checkbox {
+    appearance: none;
+    border: 1px solid #d1d1d1;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    opacity: 1;
+    background-position: center;
+}
+
+.form__checkbox:checked {
+    background: transparent url("../../public/images/icon-check.svg") 0% 0% no-repeat padding-box;
+    background-position: center;
+}
+
+.form__checkbox:hover {
+    cursor: pointer;
+}
+
+.label {
+    position: absolute;
+    left: -999999px;
+}
+
+.checkbox__label {
+    text-align: left;
+    font: normal normal 300 10px/14px Open Sans;
+    letter-spacing: 0px;
+    color: #b2b2b2;
+    opacity: 1;
+}

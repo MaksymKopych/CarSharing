@@ -98,8 +98,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
 
         span {
             width: 100%;
@@ -125,14 +125,15 @@
         position: absolute;
         width: 100vw;
         top: 62px;
-        display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         background-color: #000000ea;
         height: fit-content;
         border: 2px solid #ffffff33;
         z-index: 99;
         right: -110%;
         height: calc(100vh);
+        overflow: hidden;
     }
 }
 
@@ -192,10 +193,11 @@
     transition: 0.3s;
 
     @media (max-width:992px) {
-        padding: 40px;
+        padding: 20px;
         width: 100%;
-        margin-bottom: 20px;
-        font-size: 30px;
+        // margin-bottom: 10px;
+        font-size: 25px;
+        height: fit-content;
     }
 }
 

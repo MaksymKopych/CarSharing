@@ -1,10 +1,9 @@
 import { useWindowWidth } from "@react-hook/window-size";
 import React, { useEffect, useState } from "react";
 
-export const Header = () => {
+export const Header = ({ windowWidth, showMenu, setShowMenu }) => {
   const [darkTheme, setDarkTheme] = useState(undefined);
-  const [showMenu, setShowMenu] = useState(false);
-  const windowWidth = useWindowWidth();
+
   useEffect(() => {
     if (darkTheme !== undefined) {
       if (darkTheme) {
@@ -31,11 +30,7 @@ export const Header = () => {
   const handleToggle = (event) => {
     setDarkTheme(event.target.checked);
   };
-  useEffect(() => {
-    if (showMenu) {
-      setShowMenu(false);
-    }
-  }, [windowWidth]);
+
   return (
     <header className="header" id="header">
       <div className="menu menu__sticky">

@@ -2,9 +2,9 @@ import React from "react";
 
 export const Contacts = () => {
   return (
-    <section className="contakt" id="contact">
+    <section className="contakt">
       <div className="contakt__logo">
-        <span></span>Contact<span></span>
+        <span id="contact"></span>Contact<span></span>
       </div>
       <form className="contakt__content grid">
         <img

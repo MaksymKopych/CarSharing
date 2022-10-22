@@ -2,9 +2,9 @@ import React from "react";
 
 export const Bolog = () => {
   return (
-    <section className="blog" id="blog">
-      <div class="blog__logo">
-        <span></span>blog<span></span>
+    <section className="blog">
+      <div className="blog__logo">
+        <span id="blog"></span>blog<span></span>
       </div>
       <div className="grid">
         <section className="blog__content-section span-4 span-sm-12">

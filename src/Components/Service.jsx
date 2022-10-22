@@ -2,9 +2,9 @@ import React from "react";
 
 export const Service = () => {
   return (
-    <section className="service" id="service">
+    <section className="service">
       <div className="service__logo">
-        <span></span>service<span></span>
+        <span id="service"></span>service<span></span>
       </div>
       <div className="cervice__content grid">
         <section className="service__content-section span-3 span-md-6 span-sm-12">

@@ -1,4 +1,3 @@
-import { useWindowWidth } from "@react-hook/window-size";
 import React, { useEffect, useState } from "react";
 
 export const Header = ({ windowWidth, showMenu, setShowMenu }) => {
@@ -34,7 +33,7 @@ export const Header = ({ windowWidth, showMenu, setShowMenu }) => {
   return (
     <header className="header" id="header">
       <div className="menu menu__sticky">
-        <a href="/" className="logo">
+        <a href="/CarSharing" className="logo">
           <img alt="logo" src="images/icon-logo-normal.svg" />
           <span>Car</span>Sharing
         </a>
@@ -114,10 +113,10 @@ export const Header = ({ windowWidth, showMenu, setShowMenu }) => {
           amet iusto, rerum tenetur!
         </p>
         <div className="hero__btns">
-          <a href="/" className="hero__button">
+          <a href="#" className="hero__button">
             Share a car
           </a>
-          <a href="/" className="hero__button">
+          <a href="#" className="hero__button">
             Key Features
           </a>
         </div>

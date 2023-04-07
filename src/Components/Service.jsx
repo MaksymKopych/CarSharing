@@ -16,7 +16,7 @@ export const Service = () => {
             eligendi provident illum.
           </p>
           <button className="cervice__button">
-            <a href="">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
         <section className="service__content-section span-3 span-md-6 span-sm-12">
@@ -28,7 +28,7 @@ export const Service = () => {
             eligendi provident illum.
           </p>
           <button className="cervice__button">
-            <a href="/">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
         <section className="service__content-section span-3 span-md-6 span-sm-12">
@@ -40,7 +40,7 @@ export const Service = () => {
             eligendi provident illum.
           </p>
           <button className="cervice__button">
-            <a href="/">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
         <section className="service__content-section span-3 span-md-6 span-sm-12">
@@ -52,7 +52,7 @@ export const Service = () => {
             eligendi provident illum.
           </p>
           <button className="cervice__button">
-            <a href="/">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
       </div>

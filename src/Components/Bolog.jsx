@@ -16,7 +16,7 @@ export const Bolog = () => {
             eligendi provident illum.
           </p>
           <button className="blog__button">
-            <a href="/">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
         <section className="blog__content-section span-4 span-sm-12">
@@ -28,7 +28,7 @@ export const Bolog = () => {
             eligendi provident illum.
           </p>
           <button className="blog__button">
-            <a href="/">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
         <section className="blog__content-section span-4 span-sm-12">
@@ -40,7 +40,7 @@ export const Bolog = () => {
             eligendi provident illum.
           </p>
           <button className="blog__button">
-            <a href="/">Read more</a>
+            <a href="#">Read more</a>
           </button>
         </section>
       </div>
